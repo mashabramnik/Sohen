@@ -1,0 +1,47 @@
+.admin_list_el a{
+		
+	color:#fff;
+    line-height: 2em;
+    background-color:#586585;
+    font-size: 2em;
+}
+.admin_list_el a:hover {
+ 	color:#1f0ef1;
+ 	text-decoration: none;
+ 	transition: all.4s ease;
+ 	-moz-transition: all.4s ease;
+ 	-webkit-transition: all.4s ease;
+ 
+ }
+ .admin_list_el a:activ{
+ 	background-color: #acb4c8;
+ 	color:#1f0ef1;
+ }
+#admin_office_list ul{
+	list-style-type: none;
+	
+}
+#admin_office_list{
+	
+	margin-left: 30px;
+	width: 20%;
+	float: left;
+	
+}
+
+#admin_office_header{
+	font-weight: bold; 
+	color: #fffdfd;  
+	border:none; font-size: 2.5em; 
+	font-family: Segoe Script ,sans-serif;
+	text-align: right;
+	margin-right: 540px;
+	
+	
+}
+#admin_office_header_wrap{	
+	width: 100%;	
+	margin-top: 30px;
+	margin-bottom: 50px;
+	
+}

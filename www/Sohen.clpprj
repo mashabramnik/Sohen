@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\WebServers\home\Sohen.ru\www\Sohen.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/Ira/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Ira/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\WebServers\home\Sohen.ru\www\shop.php"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\items_table.css"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\mystyles.css"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\dcaccordion.css"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\graphite.css"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\slider.css"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\functions.php"/>
+	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="C:\WebServers\home\Sohen.ru\www\css\shop_cart.css">
+			<error val="1;16;15;16;2502;1;"/>
+		</errfile>
+		<errfile name="C:\WebServers\home\Sohen.ru\www\css\mystyles.css">
+			<error val="1;17;23;17;2502;1;"/>
+			<error val="1;29;23;29;2502;1;"/>
+			<error val="1;46;15;46;2502;1;"/>
+		</errfile>
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\WebServers\home\Sohen.ru\www\js\jquery.hoverIntent.minified.js" crc="1498299804"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\js\jquery.dcjqaccordion.2.7.min.js" crc="1498300529"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\js\jquery.dcjqaccordion.2.7.js" crc="1498302081"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\js\jquery.cookie.js" crc="1292811722"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\htmlShablones\menuHorizontal.php" crc="1496308172"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\htmlShablones\header.php" crc="1496308180"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\htmlShablones\footer.php" crc="1496308177"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\htmlShablones\footer.html" crc="1496309248"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\htmlShablones\base.php" crc="1496436939"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\htmlShablones\base.html" crc="1496309234"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\slider.css" crc="1494834505"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\shop_cart.css" crc="1495825236"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\registr.css" crc="1497254465"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\private_office.css" crc="1495819147"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\mystyles.css" crc="1498124146"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\items_table.css" crc="1498213612"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\history.css" crc="1495015879"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\graphite.css" crc="1498250210"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\dcaccordion.css" crc="1495456948"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\css\admin.css" crc="1495824520"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\shop_old1.php" crc="1498225764"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\shop_old.php" crc="1498219413"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\shop_cart.html" crc="1495824669"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\shop.php" crc="1498416762"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\shop.html" crc="1498056582"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\second.php" crc="1498246402"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\registr.php" crc="1497382294"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\private_office.html" crc="1495822008"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\pers_data.html" crc="1495822428"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\index.php" crc="1498133440"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\history.html" crc="1495823758"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\functions.php" crc="1498416771"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\functions - Copy.php" crc="1498227197"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\admin.php" crc="1496481962"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\admin.html" crc="1495997662"/>
+		<file name="C:\WebServers\home\Sohen.ru\www\.htaccess" crc="1496441407"/>
+	</filescache>
+</project>

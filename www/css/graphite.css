@@ -1,0 +1,37 @@
+.graphite .accordion{font: bold 14px Arial, sans-serif; border-right: 1px solid #111; border-left: 1px solid #111;}
+.graphite .accordion, .graphite .accordion li {margin: 0; padding: 0; border: none;}
+.graphite .accordion a {padding: 10px 10px 10px 50px; background: #e1e4ec ; text-decoration:none; display: block; color: #667499; border-bottom: 1px solid #222;  position: relative;text-shadow: 1px 1px 1px #ccc; }
+.graphite .accordion  a {background: #e1e4ec; color: #667499;}
+.graphite .accordion  ul {background: #f8f8f8;}
+.graphite .accordion a.dcjq-parent, .graphite .accordion a.dcjq-parent:hover {background: #fff;}
+.graphite .accordion a.dcjq-parent.active {}
+.graphite .accordion a .dcjq-icon {position: absolute; top: 50%; left: 14px; width: 34px; margin-top: -17px; height: 34px; background: url(skins/images/arrow_black_right.png) no-repeat 0 center;}
+.graphite .accordion a.dcjq-parent.active .dcjq-icon {background: url(skins/images/arrow_black_down.png) no-repeat 0 center;}
+.graphite .accordion a:hover {background: #e1e4ec;}
+/*.graphite .accordion a:active{color:#1c39e3;} нужно что подсвечивались только те строки меню,которые конечны,у них нет вложенности*/
+a.a_producttype:hover{background: #e1e4ec; color: #1c39e3;}
+	
+
+
+.graphite .accordion #catalog_tovarov{
+	font-size: 1.8em; font-family: Helvetica,sans-serif; font-weight: bold; color: #fffdfd; margin-bottom: 0.5em; border:none;}
+.graphite .accordion #producer_name{
+	font-weight: bold; color: #fffdfd; margin-bottom: 0.5em; border:none; font-size: 2em; font-family: Segoe Script ,sans-serif;text-align: center ;text-transform: uppercase;
+	
+}	
+	
+.graphite .accordion .parrent_0{	
+	font: bold  1.4em Helvetica, sans-serif; 
+}
+.graphite .accordion .parrent_1 {
+	font: bold 90%  Helvetica, sans-serif;
+}
+
+.graphite .accordion .parrent_2 {
+	font: bold 90% Helvetica, sans-serif;
+}
+.graphite .accordion .parrent_3 {
+	font: bold 90% Helvetica, sans-serif;
+}
+
+

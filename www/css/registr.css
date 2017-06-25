@@ -1,0 +1,90 @@
+#registr_header_wrap{
+	width: 100%;	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+#registr_header{	
+	font-weight: bold; 
+	color: #fffdfd;  
+	border:none; 
+	font-size: 2.5em; 
+	font-family: Segoe Script ,sans-serif;
+	text-align: right;
+	margin-right: 540px;	
+}
+#form_border_left{
+	
+	padding-left: 20px;;
+}
+#form_border_right{
+	
+	padding-left: 20px;
+	margin-right: 30px;
+}
+.form_header{
+	margin-bottom: 20px;
+	font: bold 2em Helvetica,sans-serif;
+}
+.field_title{
+	color:#667499;
+	font:1.3em Helvetica,sans-serif;
+}
+.form_input{
+	margin-bottom: 30px;
+}
+.form_input input{
+	width: 400px;
+	height: 40px;
+	padding-left: 10px;
+	font: 1.3em Helvetica,sans-serif;
+	
+	
+}
+
+#form_input_pass + p{
+	
+	font-size:1.2em;
+	border: 1px solid #ff0000;
+	display: none;
+	
+	
+}
+#form_input_pass:focus + p{
+	display: block;
+}
+#telReg + p{
+	font-size:1.2em;
+	border: 1px solid #ff0000;
+	display: none;
+}
+
+#telReg:focus + p{
+	display: block;
+}
+
+ #form_block_left{
+ 	float: left;
+ 	width: 40%;
+ 	margin-left: 50px;
+ }
+ #form_block_right{
+ 	
+ 	float: right;
+ 	width: 40%;
+ }
+ .in_submit{
+ 	width: 250px;
+ 	height: 35px;
+ 	float: right;
+ 	margin-right: 100px;
+ 	font: 1.2em Helvetica,sans-serif;
+ 	background-color: #e1e4ec;
+ 	color: #667499;
+ 	margin-top: 20px;
+ }
+ .in_submit:hover{
+ 	
+ 	background-color: #c0c7d8;
+ 	color:#3e465e;
+ }

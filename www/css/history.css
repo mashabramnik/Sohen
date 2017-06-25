@@ -1,0 +1,27 @@
+#pay_date{
+	
+	font:1em Helvetika,sans-serif;
+	color:#221de2;
+}
+#history_shop_carts_header{
+
+	color: #667499;
+	font-size: 0.8em;
+	font-family: Helvetika ,sans-serif;
+	margin-top: 120px;
+	margin-left: 50px;
+}
+#order_status_header{
+	color: #667499;
+	font-size: 0.8em;
+	font-family: Helvetika ,sans-serif;
+	margin-top: 20px;
+	margin-left: 50%;
+	
+}
+#order_status_current{
+		
+	font:1em Helvetika,sans-serif;
+	color:#221de2;
+	
+}

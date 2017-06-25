@@ -1,0 +1,14 @@
+<codestructure version="5.11">
+<phptree>
+<treenode node="footer.html;PHP:PHP Include;C:\WebServers\home\localhost\www\Sohen\htmlShablones\Codelobster0.php;f9;33;20;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="functions.php;PHP:PHP Include;C:\WebServers\home\Sohen.ru\www\shop_old1.php;f9;10;22;10;;C:\WebServers\home\Sohen.ru\www\shop.php;f9;10;22;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="createArrByProductTypeDB;PHP:Function Name;C:\WebServers\home\Sohen.ru\www\functions.php;f0;4;1;30;;;;vpos;;v;;r;;d63,4;;b0,0;;mres_productType_byProducer;;p">
+</treenode>
+<treenode node="createMenuByProductTypeArr;PHP:Function Name;C:\WebServers\home\Sohen.ru\www\functions.php;f0;35;1;63;;;;vpos;;v;;r;;d58,35;;b0,0;;marr;;pparent_id;;p">
+</treenode>
+<treenode node="get_cat;PHP:Function Name;Codelobster1.php;f0;4;1;9;;C:\WebServers\home\Sohen.ru\www\functions - Copy.php;f0;4;1;21;;;;vpos;;v;;r;;d46,4;;b0,0;;mres_productType_byProducer;;p">
+</treenode>
+</phptree>
+</codestructure>

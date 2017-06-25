@@ -1,0 +1,1138 @@
+			
+			
+			
+			
+html, body, h2 {
+	margin: 0;
+			}
+html, body, .container {
+	height: 100%;
+			}
+body {
+	text-align: center;
+	background-color: #667499;
+				
+			}
+
+#footer{
+	xbox-sizing:bored-box;
+	background: #ccd0dd;
+	height: 50px;
+	width: 100%;
+}
+
+#footer_text{
+	text-align: left;
+	padding-left: 5%;
+}
+#head{
+	background:#fff ;
+	xbox-sizing:bored-box;
+	height: 65px;
+	width: 100%;
+}
+
+			
+.container {
+	background: #667499;
+	display: table;
+	width: 100%;
+	margin-top: -5px;
+	padding: 0;
+	overflow: hidden;
+				
+}
+
+.row {
+	xheight: 100%;
+	display: table-row;
+			}
+.row .no-float {
+	display: table-cell;
+	float: none;
+}
+.col-md-12 {
+}
+#logoImg{
+ 	
+	vertical-align: middle;
+	margin-right: 20px;
+	float: left;
+ }			
+			
+#siteNameLogo{
+	font-size: 2em;
+	font-family: Segoe Script ,sans-serif;
+	
+	float: left;
+	vertical-align: middle;
+	margin-top: 1%;
+	
+
+			
+}
+
+#about,#contact,#exit {
+	
+	font-size: 1.7em;
+	font-family: Segoe Script ,sans-serif;
+	vertical-align: middle;
+	float: right;
+	margin-right: 6em;
+	margin-top: 1%;
+	
+}
+
+
+
+
+
+
+/*Это два div контейнера для заголовка и флажков */
+#slogan_flag_outer{
+	line-height: 100px;
+	width: 100%;
+	height: 100px;;	
+    margin:0 auto;
+		
+}
+#slogan_flag_inner{
+	
+	
+	
+}
+
+#slogan{
+	
+	height: 95px;
+	float: left;
+    width: 100%;
+	font-size: 3.5em;
+	font-family: Helvetica,sans-serif;
+	font-weight: 600;	
+    position: absolute;
+    margin: auto;
+    text-align: center;
+}
+
+.languages{
+	width: 15%;
+
+	float: right;
+	
+	text-align: right;
+	margin-right: 8%;
+	
+}
+
+#russian{
+
+	
+}
+#hebrew{
+margin-left:10%;
+	
+}
+
+/*Это то же самое , но с display-table для странички index1.html*/
+
+/*Дальше одинаково для index.html и index1.html*/
+#muzhik{
+	
+	text-align: center;
+}
+
+
+ a {
+ 	color:#6a7695;
+ 	text-decoration: none;
+ 	transition: all.4s ease;
+ 	-moz-transition: all.4s ease;
+ 	-webkit-transition: all.4s ease;
+ 
+ }
+ 
+  a:hover {
+ 	color:#1f0ef1;
+ 	text-decoration: none;
+ 	transition: all.4s ease;
+ 	-moz-transition: all.4s ease;
+ 	-webkit-transition: all.4s ease;
+ 
+ }
+ 
+ a:active{
+ 	color:#1c39e3;
+ }
+ 
+ img{
+ 	max-width: 100%;
+ 	height: auto;
+ 	width: auto\9;
+ }
+
+ 
+ /* Selection block   */
+ ::selection{
+ 	color:#312e38;
+ 	background: #fff;
+ }
+ 
+ ::-moz-selection{
+ 	color:#312e38;
+ 	background: #fff;
+ 	
+ }
+ .blockEntry{
+ 	text-align: center;
+ 	margin-top: 10px;
+ }
+ .entry{
+  
+    border-color: silver;
+    border-width: medium;
+    width: 175px;
+    height: 30px;
+    margin: auto auto auto 10px;	
+    text-align: center;
+    background-color: #7a87a7;
+    font-family: Helvetica ,sans-serif;
+    font-size:1em;
+    
+ }
+ #log_in_submit {
+ 	border-color: silver;
+    border-width: medium;
+    width: 175px;
+    height: 35px;
+    /*  margin: auto auto auto 10px; */
+    text-align: center;
+    background-color: #7a87a7;
+    color:#0f0000;
+ 	font-family:  Segoe Script ,sans-serif;
+ 	font-size: 1.2em;
+    
+ }
+
+ 
+.entryBottom{
+	
+    border-color: silver; 
+    border-width: medium;
+    border-width: medium;
+    width: 230px;
+    height: 30px;
+    margin: auto auto auto 10px;	
+    text-align: center;
+    background-color:#7a87a7;
+    font-family: Segoe Script ,sans-serif;
+    
+}
+.blockEntryBottom{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+ .entry ::-moz-placeholder{
+ 	
+ 	color:#0f0000;
+ 	font-family:  Segoe Script ,sans-serif;
+ 	font-size: 1.2em;
+ 	
+ }
+ 
+ .entry:-moz-placeholder{
+ 	
+ 	color:#0f0000;
+ 	font-family:  Segoe Script ,sans-serif;
+ 	font-size: 1.2em;
+ 	
+ }
+ .entry:-ms-input-placeholder{
+ 	color:#0f0000;
+ 	font-family:  Segoe Script ,sans-serif;
+ 	font-size: 1.2em;
+ 	
+ }
+ .entry::-webkit-input-placeholder{
+ 	
+ 	color:#0f0000;
+ 	font-family:  Segoe Script ,sans-serif;
+ 	font-size: 1.2em;
+ 	
+ }
+ :focus::-moz-placeholder{
+ 	color:transparent;
+ }
+ :focus:-moz-placeholder{
+ 	color:transparent;
+ }
+ 
+ :focus::-webkit-input-placeholder{
+ 	
+ 	color:transparent;
+ }
+ :focus:-ms-input-placeholder{
+ 	
+ 	color:transparent;
+ }
+.entry input:-moz-placeholder{
+ 	font-style: italic;
+ 	
+ }
+ .entry input::-moz-placeholder{
+ 	font-style: italic;
+ 	
+ }
+ .entry input::webkit-input-placeholder{
+ 	font-style: italic;
+ 	
+ }
+ .entry input:-ms-input-placeholder{
+ 	
+ 	font-style: italic;
+ }
+ 
+
+ 
+ 
+ 
+ 
+  /* Это относится к странице second.html   */
+
+#sloganSecond_first{
+		
+	float:left;
+	width:60%;
+	font-size: 1.6em;
+	font-family: Segoe Script ,sans-serif;
+	font-weight: 600;
+	height: 100px;	
+	margin-top: 2.5%;
+	color:#d0d5df;
+	padding-left: 25%;
+}
+	
+
+#sloganSecond_second{
+	
+	padding-bottom: 0.4em;
+	text-align: right;
+	float:right;
+	font-size: 1.2em;
+	font-family: Segoe Script ,sans-serif;
+	font-weight: 600;
+	width:100%;	
+	margin-top: 2%;
+	margin-right: 3em;
+	margin-bottom: 3em;
+	color:#ba456f;
+	text-shadow: 0px 3px 0px #b2a98f,
+
+             0px 14px 10px rgba(0,0,0,0.15),
+
+             0px 24px 2px rgba(0,0,0,0.1),
+
+             0px 34px 30px rgba(0,0,0,0.1);		
+}
+.languages_s{
+  	
+  }
+
+#slogan_flag_outer_s{
+	
+}
+#slogan_flag_inner_s{
+	
+}
+#russian_s{
+	margin-left: 60px;
+}
+#hebrew_s{
+	margin-left: 30px;
+    margin-top: 3%;
+}
+
+#logoSelect{
+	
+width: 100%;
+height: 100%;
+	
+}
+#logoSelectInner{
+	
+	width: 100%;
+	text-align: center;
+}
+#logoSelectInner img{
+	margin-bottom: 200px;
+	
+}
+/*Это относится к страничке shop.html*/
+
+#contact_shop {
+	font-size: 1.7em;
+	font-family: Segoe Script ,sans-serif;
+	vertical-align: middle;
+	float: right;
+	margin-right: 6em;
+	margin-top: 1%;
+}
+
+#about_shop{
+	
+	font-size: 1.7em;
+	font-family: Segoe Script ,sans-serif;
+	vertical-align: middle;
+	float: right;
+	margin-right: 6em;
+	margin-top: 1%;
+}
+
+#exit_shop{
+	
+	font-size: 1.7em;
+	font-family: Segoe Script ,sans-serif;
+	vertical-align: middle;
+	float: right;
+	margin-right: 6em;
+	margin-top: 1%;
+}
+
+#siteNameLogo_shop {
+	font-size: 2em;
+	font-family: Segoe Script ,sans-serif;
+	
+	float: left;
+	vertical-align: middle;
+	margin-top: 1%;
+				
+}
+
+.languages_shop {
+	
+
+    margin-right: 2em;
+	float: right;
+}	
+
+#hebrew_shop{
+	
+	margin-left:2em;
+	background-color:#f8f8f8;
+	margin-top: 1.5em;
+}
+#russian_shop{
+	background-color:#f8f8f8;
+	margin-top: 1.5em;
+}
+#head_shop{
+ 	
+ 	
+ 	width: 100%;
+ 	background-color:#e1e4ec;
+ 	margin-bottom: 1%;
+ 	
+ }
+
+/*
+ #menu_horizontal_new{
+ 	
+ 	height: 50px;
+ 	background-color: :#e1e4ec;
+ 	display: table;
+ }
+ #menu_horizontal_new ul{
+ 	margin-left: 0.5em;
+ 	list-style: none;
+ 	display: flex;
+ }
+ #menu_horizontal_new > ul li a{
+ 	
+ 	display: block;
+ 	padding: 0.6em 2em 0em 0em;
+ 	font-size: 1em;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-family: Segoe Script ,sans-serif;
+ }
+
+#menu_horizontal_new li a:hover{
+	
+	background:#f8f5fa;
+}
+*/
+
+
+
+ #menu_horizontal_new{
+ 	
+ 	/*height: 50px;*/
+ 	background-color: :#e1e4ec;
+ 	
+ }
+ 
+ #menu_horizontal_new li{
+ 	float: left;
+ }
+ 
+ #menu_horizontal_new ul{
+ 	margin-left: 0.5em;
+ 	padding: 0;
+ 	list-style-type: none;
+ 	overflow: hidden;
+ 	display: flex;
+ }
+ 
+ #menu_horizontal_new   li a{
+ 	
+ 	display: block;
+ 	padding: 0.6em 2em 0em 0em;
+ 	font-size: 1em;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-family: Segoe Script ,sans-serif;
+ 	background-color: :#e1e4ec;
+ }
+
+#menu_horizontal_new li a:hover {
+	
+	display: block;
+	background-color: #fff;
+	background:#f8f5fa;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+#shoping_cart{
+	font-weight: bold;
+	padding-left: 3em;
+}
+#checkout{
+	font-weight: bold;
+	padding-left: 0.5em;
+}
+#show_amount input{
+	width: 4em;
+	margin-top: 1em;
+	border-radius: 10%;
+	font-family: 
+	
+}
+#number_of_items input{
+    width: 3em;
+    height: 2em;
+    margin-top: 0.6em;
+    border-radius: 10%;
+    font-family: Helvetica, sans-serif;
+}
+#number_of_items{
+	
+	padding-right: 1em;
+	
+}
+#content{
+	
+	background-color:#667499;
+	width: 100%;
+	
+}
+#html_left_menu{
+		
+	background-color:#f8f5fa;
+}
+
+/*это относится к странице second.html*/
+
+#sloganSecond_first{
+		
+	float:left;
+	width:60%;
+	font-size: 3em;
+	font-family: Segoe Script ,sans-serif;
+	font-weight: 600;
+	height: 100px;	
+	margin-top: 2.5%;
+	color:#d0d5df;
+	padding-left: 20%;
+}
+	
+
+#sloganSecond_second{
+	
+	padding-bottom: 0.4em;
+	text-align: right;
+	float:right;
+	font-size: 2.5em;
+	font-family: Segoe Script ,sans-serif;
+	font-weight: 600;
+	width:100%;	
+	margin-top: 2%;
+	margin-right: 6em;
+	margin-bottom: 3em;
+	color:#ba456f;
+	text-shadow: 0px 3px 0px #b2a98f,
+
+             0px 14px 10px rgba(0,0,0,0.15),
+
+             0px 24px 2px rgba(0,0,0,0.1),
+
+             0px 34px 30px rgba(0,0,0,0.1);		
+}
+.languages_s{
+  	
+  }
+
+#slogan_flag_outer_s{
+	
+}
+#slogan_flag_inner_s{
+	
+}
+#russian_s{
+	margin-left: 60px;
+}
+#hebrew_s{
+	margin-left: 30px;
+    margin-top: 3%;
+}
+
+#logoSelect{
+	
+width: 100%;
+height: 100%;
+	
+}
+#logoSelectInner{
+	
+	width: 100%;
+	text-align: center;
+}
+#logoSelectInner img{
+	
+	
+}
+
+
+
+/* адаптивный media для index.html   */
+@media screen and (max-width: 1360px){
+	#contact , #about , #exit{
+		margin-right: 4em;
+	}
+}
+
+
+@media screen and (max-width: 1210px){
+		#contact , #about , #exit{
+		margin-right: 3em;
+	}
+}
+
+@media screen and (max-width: 1100px){
+		#contact , #about , #exit{
+		margin-right: 2em;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	#muzhik{		
+		width: 80%;
+		margin: auto;
+	}
+
+	#siteNameLogo {
+    	font-size: 1.5em;
+	}
+
+	.blockEntry{
+		margin-top: 50px;
+	}
+	.blockEntryTop{
+		margin-bottom: 30px;
+	}
+
+}
+@media screen and (max-width: 900px){
+	#contact,#about,#exit{
+		margin-right: 1.2em;
+		font-size: 1.5em;
+		margin-top: 2%;
+		
+	}
+	#siteNameLogo {
+    margin-top: 1.5%;
+	}
+	
+}
+@media screen and (max-width: 768px){
+	
+	#slogan {
+    	font-size: 2.5em;   
+    }
+
+	#siteNameLogo {
+    margin-top: 2%;
+	}
+	#contact,#about,#exit{
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 680px){
+
+	#siteNameLogo {
+    	
+    	font-size: 1.2em;
+    	margin-top: 3%;
+    	
+	}
+
+	
+#contact , #about,#exit{
+		font-size: 1.1em;
+		margin-top: 3%;
+	}	
+}
+
+@media screen and (max-width: 590px){
+	
+		#siteNameLogo {    	
+    	font-size: 1em;  	  	
+	}
+	
+		#contact,#about,#exit{
+		font-size: 1.1em;
+	}
+	    #logoImg{	
+		 margin-right: 10px;	
+ 		}
+	
+}
+@media screen and (max-width: 570px){
+	.entry:last-child{
+		margin-top: 15px;
+	}
+	#about{
+		display: none;
+	}
+    #siteNameLogo{
+		font-weight: bold;
+	}
+
+
+
+
+	
+}
+@media screen and (max-width: 490px){
+	.entry,.entryBottom  {
+
+    	display: block;
+    	margin: 10px auto;
+	}
+	.blockEntryTop{
+		margin-bottom: 0;
+	}
+
+	#slogan {
+    	font-size: 2.2em;
+	}
+	
+	.languages{
+		margin-right: 2%;
+	}
+	
+	#hebrew{
+		margin-left: 10px;
+	}
+	#slogan{
+		width: 70%;
+		text-align: right;
+		
+	}
+	
+	.languages{	
+		width: 20%;   
+    	
+	}
+	
+	#siteNameLogo { 
+	   	margin-top: 4%;
+    	font-size: 1em;  	  	
+	}
+	
+		#contact,#exit{
+		margin-top: 4%;	
+		font-size: 1em;
+		margin-right: 1em;
+	}
+		
+}
+@media screen and (max-width: 440px){
+		#siteNameLogo {
+        margin-top: 5%;
+    	font-size: 0.9em;
+	}
+		#contact,#exit{
+	 	margin-top: 5%;
+    	font-size: 0.9em;
+	}
+	
+}
+@media screen and (max-width: 400px){
+		#logoImg{	
+		 margin-right: 2px;	
+				 
+ 		}
+ 		
+ 		#contact,#exit{
+	 	margin-right: 1em;
+    	font-size: 08.em;
+		}
+		
+		#siteNameLogo {
+        
+    	font-size: 0.8em;
+		}
+	
+}
+
+@media screen and (max-width: 370px){
+
+	 #contact,#exit{
+	 	margin-top: 5%;
+    	font-size: 0.8em;
+	}
+	#slogan {
+		font-size: 2em;
+		width: 60%;
+	}
+	.languages{
+		width: 25%;
+		
+	}
+	
+	
+
+}
+
+@media screen and (max-width: 300px){
+	#slogan {
+    	font-size: 1.5em;
+	}
+	.languages {
+		
+		width: 100px;
+	}
+	#siteNameLogo {
+    	font-size: 0.8em;
+	}
+	
+}
+@media screen and (max-width: 270px){
+	#slogan {
+    	font-size: 1.4em;
+	}
+	
+}
+
+/* media для second.html  */
+
+@media screen and (max-width: 1450px){
+	#sloganSecond_second{
+		margin-right: 3em;
+	}
+	
+}
+@media screen and (max-width: 1370px){
+	#sloganSecond_first {
+    	padding-left: 18%;
+}
+}
+@media screen and (max-width: 1350px){
+	
+	#sloganSecond_first {
+    	font-size: 2.3em;
+	}
+}
+@media screen and (max-width: 1300px){
+	
+	#logoSelectInner img {
+    	
+	}
+}
+
+
+@media screen and (max-width: 1100px){
+	#sloganSecond_first {
+   		 padding-left: 12%;
+   		 font-size: 2em;
+	}
+	#sloganSecond_second{
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 1000px){
+
+	#sloganSecond_first {
+    font-size: 1.8em;
+	}
+	
+	#sloganSecond_second{
+		margin-right: 2em;
+	}
+}
+@media screen and (max-width: 850px){
+	#sloganSecond_first {
+    	font-size: 1.6em;
+    	padding-left: 8%;
+    	
+	}
+	
+}
+
+@media screen and (max-width: 700px){
+	
+
+	#russian_s{
+		margin-left: 30px;
+	}
+	#sloganSecond_second{
+		font-size:1.7em;
+	}
+	.languages_s{
+		float: right;
+		margin-top: 2%;
+	}
+	#hebrew_s{
+		margin-right: 20px;
+		
+	}
+	#sloganSecond_first {
+    	font-size: 1.5em;
+    	padding-left: 4%;
+    	
+	}
+	
+	#logoSelectInner img {
+		
+    	width: 300px;
+	}
+}
+
+
+@media screen and (max-width: 600px){
+
+	#sloganSecond_first{
+       height: 70px;
+       width: 70%
+       	
+	}
+	.languages_s{
+		width: 120px;
+	}
+	#hebrew_s{
+		margin-right: 10px;
+		
+	}
+	#russian_s{
+		margin-left: 15px;
+	}
+	#sloganSecond_second {
+      margin-right: 1em;
+    	
+	}
+}
+@media screen and (max-width: 500px){
+	#logoSelectInner img {
+    	width: 250px;
+    	margin-bottom: 5px;
+
+	}
+	#sloganSecond_second{
+		line-height: 1.5em;
+		margin-top: 25px;
+	}
+	#sloganSecond_first {
+		padding-left: 0;
+	}
+
+}
+@media screen and (max-width: 460px){
+	#logoSelectInner img {
+    	width: 200px;
+    	
+	}
+
+}
+
+@media screen and (max-width: 400px){	
+	#sloganSecond_first{
+		font-size:1.1em;
+		padding-left: 3px;
+	}
+	#sloganSecond_second {
+		
+		font-size: 1.3em;
+		
+	}
+	#sloganSecond_second {
+		
+		margin-top: 0;
+	}
+	#hebrew_s {
+		
+		margin-left:10px;
+		margin-right:5px; 
+	}
+	.languages_s {
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 380px){
+	#hebrew_s{
+		margin-left: 7px;
+		margin-right: 0;
+	}
+	#russian_s{
+		margin-left: 0;
+	}
+	.languages_s{
+		width: 90px;
+	}
+	#sloganSecond_second{
+		font-size:1em;
+	}
+}
+@media screen and (max-width: 340px){
+	
+}
+
+@media screen and (max-width: 320px){
+
+	#sloganSecond_first {
+      
+       font-size:1em;
+       width: 190px;
+    	
+	}
+}
+@media screen and (max-width: 282px){
+	
+	#sloganSecond_first {
+      
+       font-size:0.9em;
+       width: 180px;
+    	
+	}
+}
+@media screen and (max-width: 270px){
+	
+	#sloganSecond_first {
+      
+       font-size:0.8em;
+       width: 170px;
+    	
+	}
+	
+	
+}
+/*адаптивный media для shop.html без таблицы*/
+	
+	
+@media screen and (max-width: 1500px){
+#siteNameLogo_shop {
+    font-size: 1.5em;
+	}	
+#about_shop, #contact_shop {
+    font-size: 1.4em;	
+}
+
+@media screen and (max-width: 1400px){
+	
+#menu_horizontal_new ul li a {
+	font-weight: bold;
+	}
+	
+.languages_shop {
+    margin-right: 8em;
+    float: right;
+}
+	
+}
+@media screen and (max-width: 1100px) {
+	
+	#about_shop, #contact_shop{
+		
+		font-weight: bold;
+		}
+			
+}
+
+
+@media screen and (max-width: 1000px){
+	
+	#about_shop, #contact_shop{
+    font-size: 1.6em;
+    
+    	
+}
+#menu_horizontal_new ul li a {
+	font-size: 1.2em;
+	}
+
+	
+}
+@media screen and (max-width: 900px) {
+#about_shop{
+    font-size: 1.8em;
+    
+	}
+#contact_shop {
+	font-size: 1.8em;
+	margin-right: 3em;
+}	
+	
+}
+
+
+
+@media screen and (max-width: 600px){
+	
+#slider {
+	display: none;
+}	
+	
+}
+
+@media screen and (max-width: 270px){
+	
+	
+	
+}
+@media screen and (max-width: 270px){
+	
+	
+	
+}
+@media screen and (max-width: 270px){
+	
+	
+	
+}
+@media screen and (max-width: 270px){
+	
+	
+	
+}	
+	
